@@ -82,7 +82,7 @@ d += elm.Dot().at((xa + 2.2, ya - 1.6))
 d += elm.Ground().at((xa + 2.2, ya - 1.6)).label("GND_P", "right")
 d += elm.Line().at((xa + 2.2, ya)).to((xa + 4.0, ya))
 net(xa + 4.0, ya, "VDD  12–26 V  (→ U1 pin 1)", "right")
-lbl(xa - 0.3, ya + 1.6, "Chấm cực tính: AUX cùng pha với cuộn thứ cấp (flyback).", 8, "left")
+lbl(xa - 0.3, ya - 2.6, "Chấm cực tính: AUX cùng pha với cuộn thứ cấp (flyback).", 8, "left")
 
 # thu cap
 d += elm.Line().at(st).to((st[0] + 1.0, st[1]))
