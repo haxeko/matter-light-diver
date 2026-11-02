@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="640" viewBox="0 0 1180 640" font-family="Arial, Helvetica, sans-serif">
+<defs><marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#333"/></marker></defs>
+<rect width="1180" height="640" fill="#fff"/>
+<text x="590.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#111">Sơ đồ khối driver đèn CCT 3 dây – ESP32-C6, Matter over Thread, nguồn flyback cách ly</text>
+<rect x="20" y="50" width="470" height="560" rx="10" fill="#fff5f0" stroke="#c0392b" stroke-dasharray="6 4"/>
+<text x="30" y="70" text-anchor="start" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#c0392b">PHÍA SƠ CẤP (điện áp lưới – nguy hiểm)</text>
+<rect x="520" y="50" width="640" height="560" rx="10" fill="#f0fff4" stroke="#1e8449" stroke-dasharray="6 4"/>
+<text x="530" y="70" text-anchor="start" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#1e8449">PHÍA THỨ CẤP – SELV (cách ly 3.75 kV, creepage ≥ 8 mm)</text>
+<line x1="505" y1="50" x2="505" y2="610" stroke="#888" stroke-width="2" stroke-dasharray="3 3"/>
+<text x="505" y="625" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#666">hàng rào cách ly</text>
+<rect x="35" y="100" width="90" height="60" rx="6" ry="6" fill="#ffe9e0" stroke="#1f4e9c" stroke-width="1.6"/>
+<text x="80.0" y="117.3" text-anchor="middle" font-size="13" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#111">AC IN</text>
+<text x="80.0" y="134.3" text-anchor="middle" font-size="13" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">176–264 VAC</text>
+<text x="80.0" y="151.3" text-anchor="middle" font-size="13" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">L / N</text>
+<rect x="150" y="95" width="120" height="70" rx="6" ry="6" fill="#eef4ff" stroke="#1f4e9c" stroke-width="1.6"/>
+<text x="210.0" y="118.7" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#111">Bảo vệ &amp; lọc EMI</text>
+<text x="210.0" y="133.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">F1 T2A, MOV 10D471</text>
+<text x="210.0" y="148.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">CM choke, X2 100 nF</text>
+<rect x="295" y="95" width="120" height="70" rx="6" ry="6" fill="#eef4ff" stroke="#1f4e9c" stroke-width="1.6"/>
+<text x="355.0" y="118.7" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#111">Chỉnh lưu + bulk</text>
+<text x="355.0" y="133.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">MB10S / 4×1N4007</text>
+<text x="355.0" y="148.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">C 47 µF / 400 V</text>
+<line x1="125" y1="130" x2="150" y2="130" stroke="#333" stroke-width="1.8" marker-end="url(#ah)"/>
+<line x1="270" y1="130" x2="295" y2="130" stroke="#333" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="150" y="220" width="140" height="80" rx="6" ry="6" fill="#eef4ff" stroke="#1f4e9c" stroke-width="1.6"/>
+<text x="220.0" y="241.2" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#111">Điều khiển flyback</text>
+<text x="220.0" y="256.2" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">U1 UCC28740</text>
+<text x="220.0" y="271.2" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">Q1 MOSFET 650 V</text>
+<text x="220.0" y="286.2" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">clamp RCD / TVS</text>
+<rect x="330" y="210" width="150" height="100" rx="6" ry="6" fill="#eef4ff" stroke="#1f4e9c" stroke-width="1.6"/>
+<text x="405.0" y="241.2" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#111">Biến áp PQ20/20</text>
+<text x="405.0" y="256.2" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">Np 42 : Ns 24 : Naux 14</text>
+<text x="405.0" y="271.2" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">Lp 490 µH, 75 kHz</text>
+<text x="405.0" y="286.2" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">VOR 80 V, cách ly tăng cường</text>
+<line x1="355" y1="165" x2="355" y2="210" stroke="#333" stroke-width="1.8" marker-end="url(#ah)"/>
+<text x="355.0" y="183.5" text-anchor="middle" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333">HV DC 215–373 V</text>
+<line x1="355" y1="165" x2="355" y2="190" stroke="#333" stroke-width="1.8"/>
+<line x1="290" y1="260" x2="330" y2="260" stroke="#333" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="150" y="340" width="140" height="60" rx="6" ry="6" fill="#eef4ff" stroke="#1f4e9c" stroke-width="1.6"/>
+<text x="220.0" y="358.7" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#111">Cuộn phụ VCC</text>
+<text x="220.0" y="373.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">12–26 V → U1 VDD</text>
+<text x="220.0" y="388.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">VS: OVP / CC sơ cấp</text>
+<line x1="330" y1="290" x2="290" y2="360" stroke="#333" stroke-width="1.8" marker-end="url(#ah)" stroke-dasharray="4 3"/>
+<rect x="150" y="440" width="140" height="60" rx="6" ry="6" fill="#eef4ff" stroke="#1f4e9c" stroke-width="1.6"/>
+<text x="220.0" y="458.7" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#111">Khởi động HV</text>
+<text x="220.0" y="473.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">2×1 MΩ từ bulk</text>
+<text x="220.0" y="488.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">(≈ 25 µA)</text>
+<line x1="355" y1="165" x2="220" y2="440" stroke="#333" stroke-width="1.8" marker-end="url(#ah)" stroke-dasharray="4 3"/>
+<rect x="440" y="400" width="120" height="70" rx="6" ry="6" fill="#fdf6d8" stroke="#9a7d0a" stroke-width="1.6"/>
+<text x="500.0" y="423.7" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#111">Opto PC817 / EL817</text>
+<text x="500.0" y="438.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">cách ly 5 kV</text>
+<text x="500.0" y="453.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">creepage ≥ 8 mm</text>
+<line x1="440" y1="435" x2="220" y2="300" stroke="#333" stroke-width="1.8" marker-end="url(#ah)"/>
+<text x="308.0" y="368.0" text-anchor="middle" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333">FB (giảm công suất)</text>
+<rect x="440" y="520" width="120" height="44" rx="6" ry="6" fill="#fdf6d8" stroke="#9a7d0a" stroke-width="1.6"/>
+<text x="500.0" y="538.2" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#111">C Y1 2.2 nF</text>
+<text x="500.0" y="553.2" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">sơ cấp ↔ thứ cấp (EMI)</text>
+<rect x="535" y="210" width="140" height="100" rx="6" ry="6" fill="#eef4ff" stroke="#1f4e9c" stroke-width="1.6"/>
+<text x="605.0" y="233.7" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#111">Chỉnh lưu thứ cấp</text>
+<text x="605.0" y="248.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">D ES3J 600 V / 3 A</text>
+<text x="605.0" y="263.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">C 100 µF / 63 V</text>
+<text x="605.0" y="278.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">V+ = 20–42 V (CC)</text>
+<text x="605.0" y="293.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">45 V kẹp (CV, đèn tắt)</text>
+<line x1="480" y1="260" x2="535" y2="260" stroke="#333" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="700" y="210" width="160" height="100" rx="6" ry="6" fill="#eef4ff" stroke="#1f4e9c" stroke-width="1.6"/>
+<text x="780.0" y="233.7" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#111">Vòng CC + CV</text>
+<text x="780.0" y="248.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">R sense 0.15 Ω, gain ×5</text>
+<text x="780.0" y="263.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">U3 op-amp (CC), U4 TL431 (CV)</text>
+<text x="780.0" y="278.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">wired-OR → opto</text>
+<text x="780.0" y="293.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">Imax cứng 1.0 A</text>
+<line x1="675" y1="260" x2="700" y2="260" stroke="#333" stroke-width="1.8" marker-end="url(#ah)"/>
+<line x1="700" y1="300" x2="560" y2="435" stroke="#333" stroke-width="1.8" marker-end="url(#ah)"/>
+<text x="623.0" y="388.25" text-anchor="middle" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333">kéo LED opto</text>
+<rect x="890" y="95" width="250" height="70" rx="6" ry="6" fill="#e8f8f5" stroke="#117a65" stroke-width="1.6"/>
+<text x="1015.0" y="118.0" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#111">ĐẦU RA 3 DÂY</text>
+<text x="1015.0" y="134.0" text-anchor="middle" font-size="12" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">V+ (chung, anode) | CW– | WW–</text>
+<text x="1015.0" y="150.0" text-anchor="middle" font-size="12" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">đèn CCT 2700–6500 K, Vf 20–42 V</text>
+<line x1="605" y1="210" x2="605" y2="130" stroke="#333" stroke-width="1.8" marker-end="url(#ah)"/>
+<line x1="605" y1="130" x2="890" y2="130" stroke="#333" stroke-width="1.8"/>
+<text x="740" y="122" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#333">V+</text>
+<rect x="890" y="210" width="120" height="100" rx="6" ry="6" fill="#eef4ff" stroke="#1f4e9c" stroke-width="1.6"/>
+<text x="950.0" y="233.7" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#111">Chuyển kênh CW/WW</text>
+<text x="950.0" y="248.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">Q2, Q3 MOSFET 60 V</text>
+<text x="950.0" y="263.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">U5, U6 74AHCT1G125</text>
+<text x="950.0" y="278.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">(dịch mức 3.3 → 5 V)</text>
+<text x="950.0" y="293.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">PWM 4 kHz bù nhau</text>
+<line x1="950" y1="210" x2="950" y2="165" stroke="#333" stroke-width="1.8" marker-end="url(#ah)"/>
+<text x="950.0" y="183.5" text-anchor="middle" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333">CW– / WW–</text>
+<line x1="860" y1="260" x2="890" y2="260" stroke="#333" stroke-width="1.8" marker-end="url(#ah)"/>
+<text x="875.0" y="254.0" text-anchor="middle" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333">I tổng</text>
+<rect x="535" y="350" width="130" height="60" rx="6" ry="6" fill="#eef4ff" stroke="#1f4e9c" stroke-width="1.6"/>
+<text x="600.0" y="368.7" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#111">Buck 5 V</text>
+<text x="600.0" y="383.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">LMR16006 / XL7005</text>
+<text x="600.0" y="398.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">22 µH, 600 mA</text>
+<line x1="605" y1="310" x2="605" y2="350" stroke="#333" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="700" y="350" width="100" height="60" rx="6" ry="6" fill="#eef4ff" stroke="#1f4e9c" stroke-width="1.6"/>
+<text x="750.0" y="368.7" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#111">LDO 3.3 V</text>
+<text x="750.0" y="383.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">ME6211 / RT9013</text>
+<text x="750.0" y="398.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">500 mA</text>
+<line x1="665" y1="380" x2="700" y2="380" stroke="#333" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="840" y="350" width="290" height="110" rx="6" ry="6" fill="#eef4ff" stroke="#1f4e9c" stroke-width="1.6"/>
+<text x="985.0" y="378.7" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#111">ESP32-C6-MINI-1  (Matter over Thread)</text>
+<text x="985.0" y="393.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">RISC-V 160 MHz, 802.15.4 + BLE 5 (commissioning)</text>
+<text x="985.0" y="408.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">Color Temperature Light (0x010C)</text>
+<text x="985.0" y="423.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">LEDC PWM: DIM-ref 12 bit, CW/WW 4 kHz</text>
+<text x="985.0" y="438.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">ADC: V+, I_out, NTC  |  GPIO: DIP ×3, nút, LED</text>
+<line x1="800" y1="380" x2="840" y2="380" stroke="#333" stroke-width="1.8" marker-end="url(#ah)"/>
+<text x="820.0" y="375.0" text-anchor="middle" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333">3V3</text>
+<line x1="960" y1="350" x2="960" y2="310" stroke="#333" stroke-width="1.8" marker-end="url(#ah)"/>
+<text x="960.0" y="326.0" text-anchor="middle" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333">PWM_CW, PWM_WW</text>
+<line x1="840" y1="420" x2="780" y2="310" stroke="#333" stroke-width="1.8" marker-end="url(#ah)"/>
+<text x="810.0" y="381.0" text-anchor="middle" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333">PWM_DIM → RC → Vref</text>
+<line x1="760" y1="330" x2="840" y2="440" stroke="#333" stroke-width="1.8" marker-end="url(#ah)" stroke-dasharray="4 3"/>
+<text x="800.0" y="401.0" text-anchor="middle" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333">ADC I_out / V+</text>
+<rect x="535" y="500" width="150" height="70" rx="6" ry="6" fill="#fff8e1" stroke="#b7950b" stroke-width="1.6"/>
+<text x="610.0" y="523.7" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#111">3 nút gạt DIP (SW1..3)</text>
+<text x="610.0" y="538.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">250 + 100·S1 + 200·S2</text>
+<text x="610.0" y="553.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">+ 400·S3 mA (8 mức)</text>
+<rect x="710" y="500" width="120" height="70" rx="6" ry="6" fill="#fff8e1" stroke="#b7950b" stroke-width="1.6"/>
+<text x="770.0" y="523.7" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#111">Nút nhấn</text>
+<text x="770.0" y="538.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">identify / reset</text>
+<text x="770.0" y="553.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">(giữ 5 s = factory reset)</text>
+<rect x="855" y="500" width="120" height="70" rx="6" ry="6" fill="#fff8e1" stroke="#b7950b" stroke-width="1.6"/>
+<text x="915.0" y="523.7" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#111">LED trạng thái</text>
+<text x="915.0" y="538.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">+ NTC quá nhiệt</text>
+<text x="915.0" y="553.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">(giảm dòng &gt; 85 °C)</text>
+<rect x="1000" y="500" width="140" height="70" rx="6" ry="6" fill="#fff8e1" stroke="#b7950b" stroke-width="1.6"/>
+<text x="1070.0" y="523.7" text-anchor="middle" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" fill="#111">Nạp &amp; debug</text>
+<text x="1070.0" y="538.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">USB-JTAG (GPIO12/13)</text>
+<text x="1070.0" y="553.7" text-anchor="middle" font-size="11" font-weight="normal" font-family="Arial, Helvetica, sans-serif" fill="#111">UART0 pad, EN, BOOT</text>
+<line x1="610" y1="500" x2="900" y2="460" stroke="#333" stroke-width="1.8" marker-end="url(#ah)"/>
+<text x="697.0" y="482.0" text-anchor="middle" font-size="11" font-family="Arial, Helvetica, sans-serif" fill="#333">GPIO18/19/20</text>
+<line x1="770" y1="500" x2="930" y2="460" stroke="#333" stroke-width="1.8" marker-end="url(#ah)"/>
+<line x1="915" y1="500" x2="960" y2="460" stroke="#333" stroke-width="1.8" marker-end="url(#ah)"/>
+<line x1="1070" y1="500" x2="1010" y2="460" stroke="#333" stroke-width="1.8" marker-end="url(#ah)"/>
+</svg>

@@ -1,0 +1,5 @@
+## IDF Component Manager manifest
+dependencies:
+  espressif/button: "^3.5.0"      # iot_button (short / long press handling)
+  idf:
+    version: ">=5.2.0"
