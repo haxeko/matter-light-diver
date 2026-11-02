@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+# KiCad local files
+*.kicad_prl
+*-backups/
+fp-info-cache
+_autosave-*
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+hardware/kicad/drc_tmp*.txt

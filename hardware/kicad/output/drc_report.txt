@@ -1,0 +1,1040 @@
+** Drc report for matter_cct_driver.kicad_pcb **
+** Created on 2026-11-02 16:41:12 **
+
+** Found 214 DRC violations **
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(65.0000 mm, 43.0500 mm): Reference 'CY1'
+    @(75.2500 mm, 43.2000 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(65.0000 mm, 43.0500 mm): Reference 'CY1'
+    @(65.0000 mm, 21.2000 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(33.0000 mm, 21.2000 mm): PCB Text '!! 230 VAC - NGUY HIEM !!' on F.Silkscreen
+    @(20.9600 mm, 20.7500 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(33.0000 mm, 21.2000 mm): PCB Text '!! 230 VAC - NGUY HIEM !!' on F.Silkscreen
+    @(25.6000 mm, 21.8500 mm): Reference 'J1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(30.2400 mm, 20.7500 mm): Line on F.Silkscreen
+    @(33.0000 mm, 21.2000 mm): PCB Text '!! 230 VAC - NGUY HIEM !!' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(33.0000 mm, 21.2000 mm): PCB Text '!! 230 VAC - NGUY HIEM !!' on F.Silkscreen
+    @(34.0500 mm, 20.9000 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(35.5500 mm, 21.5000 mm): Reference 'F1'
+    @(33.0000 mm, 21.2000 mm): PCB Text '!! 230 VAC - NGUY HIEM !!' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(40.1800 mm, 20.6800 mm): Line on F.Silkscreen
+    @(33.0000 mm, 21.2000 mm): PCB Text '!! 230 VAC - NGUY HIEM !!' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(33.0000 mm, 21.2000 mm): PCB Text '!! 230 VAC - NGUY HIEM !!' on F.Silkscreen
+    @(40.1800 mm, 20.6800 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(37.4000 mm, 31.6000 mm): Circle on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(38.0000 mm, 26.5550 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(38.0400 mm, 26.5600 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(38.1610 mm, 26.5760 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(38.2010 mm, 26.5820 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(38.2410 mm, 26.5890 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+    @(38.2810 mm, 26.5960 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+    @(38.3210 mm, 26.6030 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+    @(38.3610 mm, 26.6100 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+    @(38.0800 mm, 26.5650 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+    @(38.1210 mm, 26.5700 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+    @(38.4810 mm, 26.6350 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+    @(38.5210 mm, 26.6440 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+    @(38.4010 mm, 26.6180 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+    @(38.4410 mm, 26.6260 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(38.5610 mm, 26.6530 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.0010 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.0410 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.0810 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.1210 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.1610 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.2010 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.2410 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+    @(38.6010 mm, 26.6620 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+    @(38.6810 mm, 32.8410 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+    @(38.6410 mm, 26.6720 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(38.8410 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(38.8810 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(38.9210 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(38.9610 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.2810 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.3210 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.3610 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.4010 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.4410 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.4810 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.5610 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.6010 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.6410 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.6810 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.7210 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.7610 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.8010 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.8410 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.8810 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.9210 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(39.9610 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(38.7610 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(38.8010 mm, 32.8410 mm): Line on F.Silkscreen
+    @(39.1000 mm, 36.0500 mm): Reference 'CX1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(65.0000 mm, 31.2000 mm): Reference 'T1'
+    @(65.0000 mm, 21.2000 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(86.3000 mm, 49.3000 mm): PCB Text 'DIP: 250+100.S1+200.S2+400.S3 mA' on F.Silkscreen
+    @(87.8900 mm, 49.1500 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(87.8900 mm, 47.8400 mm): Line on F.Silkscreen
+    @(86.3000 mm, 49.3000 mm): PCB Text 'DIP: 250+100.S1+200.S2+400.S3 mA' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(115.0500 mm, 40.6500 mm): Line on F.Silkscreen
+    @(99.6000 mm, 40.5700 mm): Reference 'J4'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(88.0000 mm, 35.5000 mm): PCB Text 'SELV' on F.Silkscreen
+    @(85.5150 mm, 36.0750 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(80.7300 mm, 28.4480 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(80.7700 mm, 28.4520 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(80.8100 mm, 28.4580 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(80.8500 mm, 28.4630 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(80.8900 mm, 28.4700 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(80.9710 mm, 28.4830 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(81.0110 mm, 28.4900 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(80.9300 mm, 28.4760 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(80.2500 mm, 27.2500 mm): Reference 'C4'
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(80.2500 mm, 27.2500 mm): Reference 'C4'
+    @(85.6100 mm, 27.2500 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+    @(80.2500 mm, 32.5000 mm): Circle on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(81.2110 mm, 28.5330 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(81.2510 mm, 28.5430 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(81.2910 mm, 28.5530 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(81.3310 mm, 28.5640 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(81.3710 mm, 28.5750 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(80.4500 mm, 28.4240 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(80.4900 mm, 28.4260 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(80.5300 mm, 28.4290 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(80.5700 mm, 28.4320 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(80.2500 mm, 28.4200 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(80.2900 mm, 28.4200 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(80.3300 mm, 28.4200 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(80.3700 mm, 28.4210 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(80.4100 mm, 28.4230 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(81.0510 mm, 28.4980 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(81.0910 mm, 28.5060 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(81.1310 mm, 28.5150 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(81.1710 mm, 28.5240 mm): Line on F.Silkscreen
+    @(80.7000 mm, 28.1000 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(76.5000 mm, 44.0000 mm): Reference 'J3'
+    @(76.0000 mm, 49.4000 mm): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(88.0000 mm, 35.5000 mm): PCB Text 'SELV' on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(46.0000 mm, 49.2000 mm): PCB Text 'matter-light-driver v1 30x95' on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(33.0000 mm, 21.2000 mm): PCB Text '!! 230 VAC - NGUY HIEM !!' on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(76.5000 mm, 44.0000 mm): Reference 'J3'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(108.0000 mm, 46.0000 mm): Reference 'J2'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(71.5500 mm, 46.0000 mm): Reference 'D10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(104.9000 mm, 33.9000 mm): Reference 'U9'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(99.6000 mm, 40.5700 mm): Reference 'J4'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(91.3000 mm, 20.4000 mm): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(91.3000 mm, 26.6000 mm): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(97.5000 mm, 20.4000 mm): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(97.5000 mm, 26.6000 mm): Line on F.Silkscreen
+[starved_thermal]: Thermal relief connection to zone incomplete (zone min spoke count 2; actual 1)
+    Local override; Severity: error
+    @(21.0000 mm, 21.0000 mm): Zone [GND_P] on F.Cu
+    @(50.6000 mm, 31.6000 mm): PTH pad 2 [GND_P] of C27
+[starved_thermal]: Thermal relief connection to zone incomplete (zone min spoke count 2; actual 1)
+    Local override; Severity: error
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on F.Cu
+    @(108.8000 mm, 29.1000 mm): Pad 48 [GND_S] of U9 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (zone min spoke count 2; actual 1)
+    Local override; Severity: error
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on F.Cu
+    @(105.8750 mm, 31.9250 mm): Pad 49 [GND_S] of U9 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (zone min spoke count 2; actual 1)
+    Local override; Severity: error
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on B.Cu
+    @(99.6000 mm, 47.9800 mm): PTH pad 3 [GND_S] of J4
+[starved_thermal]: Thermal relief connection to zone incomplete (zone min spoke count 2; actual 1)
+    Local override; Severity: error
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on B.Cu
+    @(102.4750 mm, 21.5050 mm): Pad 2 [GND_S] of C18 on B.Cu
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; Severity: warning
+    @(86.3000 mm, 49.3000 mm): PCB Text 'DIP: 250+100.S1+200.S2+400.S3 mA' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; Severity: warning
+    @(46.0000 mm, 49.2000 mm): PCB Text 'matter-light-driver v1 30x95' on F.Silkscreen
+[lib_footprint_issues]: The current configuration does not include the library 'Package_TO_SOT_SMD'.
+    Local override; Severity: warning
+    @(101.5000 mm, 23.5000 mm): Footprint U7
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_THT'.
+    Local override; Severity: warning
+    @(34.9000 mm, 31.6000 mm): Footprint C1
+[lib_footprint_issues]: The current configuration does not include the library 'Diode_SMD'.
+    Local override; Severity: warning
+    @(89.0250 mm, 34.4250 mm): Footprint D7
+[lib_footprint_issues]: The current configuration does not include the library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(91.3000 mm, 44.5000 mm): Footprint SW1
+[lib_footprint_issues]: The current configuration does not include the library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(109.5000 mm, 23.5000 mm): Footprint SW4
+[lib_footprint_issues]: The current configuration does not include the library 'Diode_SMD'.
+    Local override; Severity: warning
+    @(89.0250 mm, 29.2750 mm): Footprint D6
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_THT'.
+    Local override; Severity: warning
+    @(60.0000 mm, 46.8000 mm): Footprint CY1
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_THT'.
+    Local override; Severity: warning
+    @(78.5000 mm, 32.5000 mm): Footprint C4
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_THT'.
+    Local override; Severity: warning
+    @(41.8000 mm, 23.3000 mm): Footprint RV1
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_THT'.
+    Local override; Severity: warning
+    @(23.0000 mm, 44.5000 mm): Footprint RT1
+[lib_footprint_issues]: The current configuration does not include the library 'Package_TO_SOT_SMD'.
+    Local override; Severity: warning
+    @(48.5000 mm, 46.2000 mm): Footprint Q1
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_THT'.
+    Local override; Severity: warning
+    @(45.6000 mm, 31.6000 mm): Footprint C27
+[lib_footprint_issues]: The current configuration does not include the library 'Diode_SMD'.
+    Local override; Severity: warning
+    @(80.7000 mm, 24.0000 mm): Footprint D2
+[lib_footprint_issues]: The current configuration does not include the library 'LED_SMD'.
+    Local override; Severity: warning
+    @(73.2000 mm, 46.0000 mm): Footprint D10
+[lib_footprint_issues]: The current configuration does not include the library 'Connector_PinHeader_2.54mm'.
+    Local override; Severity: warning
+    @(99.6000 mm, 42.9000 mm): Footprint J4
+[lib_footprint_issues]: The current configuration does not include the library 'Inductor_SMD'.
+    Local override; Severity: warning
+    @(94.4000 mm, 23.5000 mm): Footprint L2
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_THT'.
+    Local override; Severity: warning
+    @(34.1000 mm, 39.8000 mm): Footprint CX1
+[lib_footprint_issues]: The current configuration does not include the library 'Package_TO_SOT_SMD'.
+    Local override; Severity: warning
+    @(100.2250 mm, 29.3450 mm): Footprint Q2
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(106.1750 mm, 21.5050 mm): Footprint C26
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(82.9150 mm, 21.0950 mm): Footprint R23
+[lib_footprint_issues]: The current configuration does not include the library 'Package_TO_SOT_SMD'.
+    Local override; Severity: warning
+    @(104.9750 mm, 29.0250 mm): Footprint U5
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(90.6650 mm, 42.9450 mm): Footprint R12
+[lib_footprint_issues]: The current configuration does not include the library 'Package_TO_SOT_SMD'.
+    Local override; Severity: warning
+    @(84.7950 mm, 36.7250 mm): Footprint U4
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(103.7050 mm, 42.4450 mm): Footprint R7
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(101.5250 mm, 21.5050 mm): Footprint C18
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(81.3150 mm, 45.9250 mm): Footprint C11
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(110.8250 mm, 21.5050 mm): Footprint C20
+[lib_footprint_issues]: The current configuration does not include the library 'Diode_SMD'.
+    Local override; Severity: warning
+    @(50.4250 mm, 35.0750 mm): Footprint D12
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(31.4350 mm, 48.5350 mm): Footprint C6
+[lib_footprint_issues]: The current configuration does not include the library 'Package_TO_SOT_SMD'.
+    Local override; Severity: warning
+    @(104.9750 mm, 33.4750 mm): Footprint U6
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(109.5150 mm, 42.4450 mm): Footprint R36
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(42.8150 mm, 48.5450 mm): Footprint R3
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(88.3250 mm, 22.1250 mm): Footprint C16
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(108.4850 mm, 34.5550 mm): Footprint C25
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(43.2850 mm, 43.3050 mm): Footprint R35
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(90.5850 mm, 45.9350 mm): Footprint R31
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(95.8550 mm, 20.9850 mm): Footprint C23
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(84.3850 mm, 45.9250 mm): Footprint C9
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(108.4950 mm, 28.3550 mm): Footprint R25
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(75.9250 mm, 21.6050 mm): Footprint C5
+[lib_footprint_issues]: The current configuration does not include the library 'Package_SO'.
+    Local override; Severity: warning
+    @(65.0000 mm, 31.0000 mm): Footprint U2
+[lib_footprint_issues]: The current configuration does not include the library 'Package_TO_SOT_SMD'.
+    Local override; Severity: warning
+    @(100.2250 mm, 34.4350 mm): Footprint Q3
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(87.5750 mm, 42.9350 mm): Footprint C12
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(75.1350 mm, 45.9250 mm): Footprint C10
+[lib_footprint_issues]: The current configuration does not include the library 'Diode_SMD'.
+    Local override; Severity: warning
+    @(42.4250 mm, 35.0750 mm): Footprint D13
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(75.1350 mm, 25.0950 mm): Footprint C15
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(78.2650 mm, 28.0950 mm): Footprint R30
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(78.2650 mm, 42.9450 mm): Footprint R11
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(86.9550 mm, 28.7950 mm): Footprint R33
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(78.2250 mm, 25.1050 mm): Footprint R17
+[lib_footprint_issues]: The current configuration does not include the library 'Package_SO'.
+    Local override; Severity: warning
+    @(34.2250 mm, 43.7250 mm): Footprint U1
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(34.2550 mm, 48.5350 mm): Footprint C7
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(79.8050 mm, 21.0950 mm): Footprint R22
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(66.9550 mm, 24.8450 mm): Footprint R19
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(104.0450 mm, 37.2550 mm): Footprint R26
+[lib_footprint_issues]: The current configuration does not include the library 'Diode_SMD'.
+    Local override; Severity: warning
+    @(60.7750 mm, 24.1250 mm): Footprint D1
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(81.3350 mm, 25.1050 mm): Footprint R28
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(37.0950 mm, 48.5450 mm): Footprint R6
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(66.9350 mm, 37.6750 mm): Footprint C13
+[lib_footprint_issues]: The current configuration does not include the library 'Diode_SMD'.
+    Local override; Severity: warning
+    @(61.2750 mm, 38.2750 mm): Footprint TVS1
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(87.4750 mm, 45.9350 mm): Footprint R24
+[lib_footprint_issues]: The current configuration does not include the library 'Diode_SMD'.
+    Local override; Severity: warning
+    @(68.3750 mm, 21.7750 mm): Footprint D4
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(81.3750 mm, 42.9450 mm): Footprint R15
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(75.1550 mm, 28.0950 mm): Footprint R29
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(54.7750 mm, 41.4850 mm): Footprint C8
+[lib_footprint_issues]: The current configuration does not include the library 'Diode_SMD'.
+    Local override; Severity: warning
+    @(34.4250 mm, 35.0750 mm): Footprint D11
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(108.4950 mm, 31.4650 mm): Footprint R27
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(41.3050 mm, 26.1450 mm): Footprint R8
+[lib_footprint_issues]: The current configuration does not include the library 'Diode_SMD'.
+    Local override; Severity: warning
+    @(48.0850 mm, 26.7750 mm): Footprint D14
+[lib_footprint_issues]: The current configuration does not include the library 'Package_SO'.
+    Local override; Severity: warning
+    @(77.9250 mm, 37.7250 mm): Footprint U3
+[lib_footprint_issues]: The current configuration does not include the library 'Diode_SMD'.
+    Local override; Severity: warning
+    @(34.5250 mm, 26.7750 mm): Footprint D3
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(51.9350 mm, 41.4950 mm): Footprint R4
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(66.9550 mm, 35.0950 mm): Footprint R20
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(86.9550 mm, 31.3850 mm): Footprint RT2
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(84.4250 mm, 25.0950 mm): Footprint C17
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(93.7750 mm, 42.9450 mm): Footprint R13
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(40.0450 mm, 43.3050 mm): Footprint R2
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(69.7950 mm, 24.8350 mm): Footprint C14
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(93.6950 mm, 45.9350 mm): Footprint R32
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(78.2250 mm, 45.9350 mm): Footprint R14
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(90.0650 mm, 28.7950 mm): Footprint R34
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(75.1550 mm, 42.9450 mm): Footprint R10
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(69.8150 mm, 35.0950 mm): Footprint R21
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(39.9550 mm, 48.5450 mm): Footprint R5
+[lib_footprint_issues]: The current configuration does not include the library 'Package_TO_SOT_SMD'.
+    Local override; Severity: warning
+    @(90.0150 mm, 36.7250 mm): Footprint U8
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(92.7850 mm, 20.9850 mm): Footprint C19
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(84.4850 mm, 42.9450 mm): Footprint R16
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(69.7550 mm, 37.6750 mm): Footprint C21
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(93.1550 mm, 28.7850 mm): Footprint C24
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(47.7050 mm, 42.1750 mm): Footprint C3
+[lib_footprint_issues]: The current configuration does not include the library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(94.2450 mm, 35.4950 mm): Footprint R9
+[lib_footprint_issues]: The current configuration does not include the library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(101.5250 mm, 25.1150 mm): Footprint C22
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(22.0000 mm, 20.0000 mm): Line on Edge.Cuts
+    @(109.5000 mm, 19.9000 mm): Reference 'SW4'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(65.5000 mm, 43.8000 mm): Line on Edge.Cuts
+    @(60.8800 mm, 44.1800 mm): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(115.0000 mm, 22.0000 mm): Line on Edge.Cuts
+    @(115.0500 mm, 27.1500 mm): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(115.0000 mm, 22.0000 mm): Line on Edge.Cuts
+    @(98.1500 mm, 27.1500 mm): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(115.0000 mm, 22.0000 mm): Line on Edge.Cuts
+    @(115.0500 mm, 40.6500 mm): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(113.0000 mm, 50.0000 mm): Line on Edge.Cuts
+    @(31.4350 mm, 49.6950 mm): Reference 'C6'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(113.0000 mm, 50.0000 mm): Line on Edge.Cuts
+    @(42.8150 mm, 49.7150 mm): Reference 'R3'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(113.0000 mm, 50.0000 mm): Line on Edge.Cuts
+    @(34.2550 mm, 49.6950 mm): Reference 'C7'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(113.0000 mm, 50.0000 mm): Line on Edge.Cuts
+    @(37.0950 mm, 49.7150 mm): Reference 'R6'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(113.0000 mm, 50.0000 mm): Line on Edge.Cuts
+    @(39.9550 mm, 49.7150 mm): Reference 'R5'
+
+** Found 70 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(90.0750 mm, 45.9350 mm): Pad 1 [+3V3] of R31 on B.Cu
+    @(89.1250 mm, 48.2500 mm): Track [+3V3] on B.Cu, length 0.8839 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(101.5000 mm, 24.0000 mm): Track [+3V3] on B.Cu, length 0.7071 mm
+    @(95.3750 mm, 20.9850 mm): Pad 1 [+3V3] of C23 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(90.0750 mm, 45.9350 mm): Pad 1 [+3V3] of R31 on B.Cu
+    @(91.7500 mm, 37.3750 mm): Track [+3V3] on B.Cu, length 0.6686 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(89.5000 mm, 28.7500 mm): Track [+3V3] on B.Cu, length 0.7500 mm
+    @(95.3750 mm, 20.9850 mm): Pad 1 [+3V3] of C23 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(108.4850 mm, 35.0350 mm): Track [+5V] on B.Cu, length 0.0381 mm
+    @(105.6250 mm, 32.5250 mm): Pad 5 [+5V] of U6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(105.6250 mm, 28.1250 mm): Track [+5V] on B.Cu, length 6.2500 mm
+    @(105.6250 mm, 32.5250 mm): Pad 5 [+5V] of U6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(95.5000 mm, 23.2500 mm): Track [+5V] on F.Cu, length 0.8750 mm
+    @(76.6250 mm, 33.7500 mm): Track [+5V] on B.Cu, length 10.3750 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(68.6250 mm, 24.8750 mm): Track [ADC_ISENSE] on F.Cu, length 1.0607 mm
+    @(99.0000 mm, 31.5000 mm): Pad 15 [ADC_ISENSE] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(103.9000 mm, 28.0000 mm): Pad 6 [ADC_VOUT] of U9 on F.Cu
+    @(82.2500 mm, 21.1250 mm): Track [ADC_VOUT] on B.Cu, length 0.1579 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(100.2250 mm, 28.4075 mm): Pad 3 [CW_N] of Q2 on B.Cu
+    @(108.0000 mm, 47.0000 mm): PTH pad 2 [CW_N] of J2
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(88.1250 mm, 46.5000 mm): Track [DIP3] on F.Cu, length 1.2524 mm
+    @(100.6250 mm, 39.8750 mm): Track [DIP3] on F.Cu, length 0.1250 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(94.2050 mm, 45.9350 mm): Pad 2 [EN] of R32 on B.Cu
+    @(102.3000 mm, 28.0000 mm): Pad 8 [EN] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(69.2750 mm, 37.6750 mm): Pad 1 [EN] of C21 on B.Cu
+    @(94.2050 mm, 45.9350 mm): Pad 2 [EN] of R32 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(21.0000 mm, 21.0000 mm): Zone [GND_P] on B.Cu
+    @(34.7350 mm, 48.5350 mm): Pad 2 [GND_P] of C7 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(37.6050 mm, 48.5450 mm): Pad 2 [GND_P] of R6 on B.Cu
+    @(34.7350 mm, 48.5350 mm): Pad 2 [GND_P] of C7 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(39.9000 mm, 31.6000 mm): PTH pad 2 [GND_P] of C1
+    @(21.0000 mm, 21.0000 mm): Zone [GND_P] on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(21.0000 mm, 21.0000 mm): Zone [GND_P] on B.Cu
+    @(21.0000 mm, 21.0000 mm): Zone [GND_P] on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(21.0000 mm, 21.0000 mm): Zone [GND_P] on B.Cu
+    @(21.0000 mm, 21.0000 mm): Zone [GND_P] on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(21.0000 mm, 21.0000 mm): Zone [GND_P] on B.Cu
+    @(21.0000 mm, 21.0000 mm): Zone [GND_P] on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(37.6050 mm, 48.5450 mm): Pad 2 [GND_P] of R6 on B.Cu
+    @(21.0000 mm, 21.0000 mm): Zone [GND_P] on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(105.8750 mm, 33.9000 mm): Pad 49 [GND_S] of U9 on F.Cu
+    @(105.6250 mm, 34.4250 mm): Pad 1 [GND_S] of U6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(103.9000 mm, 33.9000 mm): Pad 49 [GND_S] of U9 on F.Cu
+    @(104.3250 mm, 34.4250 mm): Pad 3 [GND_S] of U6 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on F.Cu
+    @(108.8000 mm, 29.9000 mm): Pad 47 [GND_S] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(108.8000 mm, 32.3000 mm): Pad 44 [GND_S] of U9 on F.Cu
+    @(108.8000 mm, 33.1000 mm): Pad 43 [GND_S] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(108.8000 mm, 31.5000 mm): Pad 45 [GND_S] of U9 on F.Cu
+    @(108.8000 mm, 32.3000 mm): Pad 44 [GND_S] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(98.9500 mm, 27.9500 mm): Pad 52 [GND_S] of U9 on F.Cu
+    @(99.9000 mm, 28.0000 mm): Pad 11 [GND_S] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(105.6250 mm, 29.9750 mm): Pad 1 [GND_S] of U5 on B.Cu
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(105.6250 mm, 29.9750 mm): Pad 1 [GND_S] of U5 on B.Cu
+    @(105.8750 mm, 31.9250 mm): Pad 49 [GND_S] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(102.4750 mm, 21.5050 mm): Pad 2 [GND_S] of C18 on B.Cu
+    @(100.3625 mm, 22.5500 mm): Pad 1 [GND_S] of U7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on B.Cu
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(98.9500 mm, 27.9500 mm): Pad 52 [GND_S] of U9 on F.Cu
+    @(99.0000 mm, 30.7000 mm): Pad 14 [GND_S] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(75.6150 mm, 45.9250 mm): Pad 2 [GND_S] of C10 on B.Cu
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(96.3350 mm, 20.9850 mm): Pad 2 [GND_S] of C23 on B.Cu
+    @(93.2650 mm, 20.9850 mm): Pad 2 [GND_S] of C19 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(81.7950 mm, 45.9250 mm): Pad 2 [GND_S] of C11 on B.Cu
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on F.Cu
+    @(99.0000 mm, 30.7000 mm): Pad 14 [GND_S] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(93.2650 mm, 20.9850 mm): Pad 2 [GND_S] of C19 on B.Cu
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(110.9775 mm, 42.4450 mm): Track [GND_S] on B.Cu, length 0.0594 mm
+    @(108.8500 mm, 39.8500 mm): Pad 50 [GND_S] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on B.Cu
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(107.1250 mm, 21.5050 mm): Pad 2 [GND_S] of C26 on B.Cu
+    @(106.4000 mm, 25.3500 mm): Track [GND_S] on F.Cu, length 6.2000 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(106.4000 mm, 25.3500 mm): Track [GND_S] on F.Cu, length 6.2000 mm
+    @(111.7750 mm, 21.5050 mm): Track [GND_S] on B.Cu, length 0.0255 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on B.Cu
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on F.Cu
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(96.3350 mm, 20.9850 mm): Pad 2 [GND_S] of C23 on B.Cu
+    @(100.3625 mm, 22.5500 mm): Pad 1 [GND_S] of U7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on B.Cu
+    @(88.8775 mm, 36.7250 mm): Pad 2 [GND_S] of U8 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on B.Cu
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(98.9500 mm, 27.9500 mm): Pad 52 [GND_S] of U9 on F.Cu
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(82.0000 mm, 32.5000 mm): PTH pad 2 [GND_S] of C4
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on B.Cu
+    @(65.6000 mm, 21.0000 mm): Zone [GND_S] on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(73.2000 mm, 46.9375 mm): Pad 1 [LED_K] of D10 on F.Cu
+    @(86.4450 mm, 28.7950 mm): Pad 1 [LED_K] of R33 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(86.4450 mm, 31.3850 mm): Pad 1 [NTC_N] of RT2 on B.Cu
+    @(91.0950 mm, 45.9350 mm): Pad 2 [NTC_N] of R31 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(101.5000 mm, 28.0000 mm): Pad 9 [NTC_N] of U9 on F.Cu
+    @(86.4450 mm, 31.3850 mm): Pad 1 [NTC_N] of RT2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(44.1000 mm, 39.8000 mm): PTH pad 2 [N_CM] of CX1
+    @(52.4250 mm, 35.0750 mm): Pad 2 [N_CM] of D12 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(52.4250 mm, 35.0750 mm): Pad 2 [N_CM] of D12 on B.Cu
+    @(46.0850 mm, 26.7750 mm): Pad 1 [N_CM] of D14 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(22.8000 mm, 38.1000 mm): PTH pad 4 [N_CM] of L1
+    @(44.1000 mm, 39.8000 mm): PTH pad 2 [N_CM] of CX1
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(77.3000 mm, 24.0000 mm): Pad 2 [SEC] of D2 on F.Cu
+    @(72.6000 mm, 36.2000 mm): Track [SEC] on F.Cu, length 0.0559 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(99.2750 mm, 35.3725 mm): Pad 2 [SENSE_P] of Q3 on B.Cu
+    @(99.2750 mm, 30.2825 mm): Pad 2 [SENSE_P] of Q2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(99.2750 mm, 35.3725 mm): Pad 2 [SENSE_P] of Q3 on B.Cu
+    @(93.7350 mm, 35.4950 mm): Pad 1 [SENSE_P] of R9 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(102.2425 mm, 42.4450 mm): Track [SENSE_P] on B.Cu, length 0.0555 mm
+    @(99.2750 mm, 35.3725 mm): Pad 2 [SENSE_P] of Q3 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(87.0000 mm, 23.5000 mm): Track [SW7] on F.Cu, length 2.2981 mm
+    @(84.9050 mm, 25.0950 mm): Pad 2 [SW7] of C17 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(92.3750 mm, 23.5000 mm): Track [SW7] on F.Cu, length 5.3750 mm
+    @(102.6375 mm, 23.5000 mm): Pad 5 [SW7] of U7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(104.6250 mm, 39.8750 mm): Track [TXD0] on F.Cu, length 0.1250 mm
+    @(100.3750 mm, 42.1250 mm): Track [TXD0] on F.Cu, length 1.0960 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(77.5000 mm, 47.8100 mm): Pad 1 [USB_5V] of J3 on F.Cu
+    @(91.0250 mm, 34.4250 mm): Pad 2 [USB_5V] of D7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(80.6250 mm, 21.1250 mm): Track [VPLUS] on F.Cu, length 1.2374 mm
+    @(80.8250 mm, 25.1050 mm): Pad 1 [VPLUS] of R28 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(78.5000 mm, 32.5000 mm): PTH pad 1 [VPLUS] of C4
+    @(80.8250 mm, 25.1050 mm): Pad 1 [VPLUS] of R28 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(66.4450 mm, 35.0950 mm): Pad 1 [VPLUS] of R20 on B.Cu
+    @(78.5000 mm, 32.5000 mm): PTH pad 1 [VPLUS] of C4
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(100.3625 mm, 23.5000 mm): Pad 2 [VPLUS] of U7 on F.Cu
+    @(86.3750 mm, 22.8750 mm): Track [VPLUS] on B.Cu, length 0.8878 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(104.1900 mm, 47.0000 mm): PTH pad 1 [VPLUS] of J2
+    @(100.3625 mm, 23.5000 mm): Pad 2 [VPLUS] of U7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(91.1750 mm, 42.9450 mm): Pad 2 [VREF_1] of R12 on B.Cu
+    @(92.5000 mm, 43.7500 mm): Track [VREF_1] on F.Cu, length 5.3033 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(77.7150 mm, 45.9350 mm): Pad 1 [VREF_1] of R14 on B.Cu
+    @(76.6250 mm, 47.5000 mm): Track [VREF_1] on B.Cu, length 0.3750 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(100.2250 mm, 33.4975 mm): Pad 3 [WW_N] of Q3 on B.Cu
+    @(111.8100 mm, 47.0000 mm): PTH pad 3 [WW_N] of J2
+
+** Found 0 Footprint errors **
+
+** End of Report **

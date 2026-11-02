@@ -47,14 +47,14 @@ Số liệu dưới đây do `hardware/calc/flyback_calc.py` sinh ra; chạy l�
 
 * **F1** cầu chì chậm T2A/250 V – chịu xung nạp tụ bulk; **RV1** MOV 10D471 (275 VAC) sau cầu chì; **RT1** NTC 5Ω hạn dòng khởi động (có thể bỏ nếu dùng cầu chì 3.15 A và chấp nhận xung 20 A).
 * **L1** cuộn chặn chế độ chung UU9.8 2 × 10 mH + **CX1** 100 nF X2 tạo bộ lọc π cùng với tụ bulk; đủ để đạt EN 55015 lớp B với layout tốt và tụ Y1 2.2 nF. Nếu dư nhiễu vi sai ở 150–500 kHz, thêm 1 cuộn vi sai 1 mH ở dây L.
-* **BR1** MB10S (1000 V/0.8 A): dòng trung bình 0.21 A, tổn hao ≈ 0.5 W.
-* **C1** 47 µF/400 V 105 °C (ripple 100 Hz ≈ 0.4 A RMS) – chọn loại 10 × 20 mm đặt nằm để giảm chiều cao.
+* **BR1** → 4 diode **M7 (1N4007 SMA, D11–D14)** ở mặt dưới (pinout rõ ràng, rẻ): dòng trung bình 0.21 A, tổn hao ≈ 0.5 W.
+* **C1** 47 µF/400 V: trên PCB dùng **2 × 22 µF/400 V 10 × 13 mm đứng** (C1, C27) để chiều cao ≤ 16 mm; ripple 100 Hz ≈ 0.4 A RMS chia đôi.
 
 ## 4. Tầng công suất (khối 2)
 
 * **T1 PQ20/20**, bobbin 5 + 5 chân, quấn kiểu sandwich: ½ Np (21 vòng, 2 lớp) → Ns 24 vòng (2 × Ø0.4 TIW) → ½ Np (21 vòng) → Naux 14 vòng Ø0.2 (ngoài cùng, tránh xa Ns). Băng cách điện 3 lớp giữa sơ–thứ cấp nếu không dùng TIW. Điện cảm rò mục tiêu ≤ 7 µH (1.5 %). Thử nghiệm hipot 3.75 kVAC/1 phút sơ–thứ cấp.
 * **Q1** MOSFET 650 V/4–6 A Rds ≤ 1.5 Ω (STD6N65K3, WSF6N65): tổn hao dẫn ≈ 0.48² × 1.5 × 1.4 (nhiệt) ≈ 0.5 W; chuyển mạch QR giảm tổn hao bật. DPAK với 2 cm² đồng (2 oz) → ΔT ≈ 40 °C.
-* **Clamp** D1 ES1J + R1 11 kΩ/2 W + C2 12 nF/400 V: Vclamp ≈ 137 V (1.7 × VOR); R1 nóng ≈ 1.7 W – chia thành 2 × 22 kΩ 2512 để tản nhiệt. Phương án ít tổn hao: TVS P6KE150A nối tiếp D1.
+* **Clamp**: trên PCB KiCad dùng TVS **P6SMB150A/SMBJ150A (SMB) nối tiếp D1 ES1J** (Vclamp ≈ 150 V, chỉ tiêu hao năng lượng rò). Phương án RCD tương đương: R1 11 kΩ/2 W (2 × 22 kΩ 2512) + C2 12 nF/400 V, tổn hao ≈ 1.7 W.
 * **R2** 0.43 Ω: UCC28740 ngắt xung ở Vcs = 0.75 V → Ipk ≈ 1.75 A (cao hơn 1.59 A tính toán 10 % – dự phòng cho Lp +10 %).
 * **D3/C3** cuộn phụ: 11.7–26.3 V vào VDD (UCC28740 chịu tới 38 V; UVLO tắt 7.75 V).
 * **D2 ES3J (SMC)** + **C4** 100 µF/63 V + **C5** 100 nF/100 V: ripple V+ ≈ 0.3 Vpp. Đặt D2–C4–T1 thành vòng nhỏ nhất.

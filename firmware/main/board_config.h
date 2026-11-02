@@ -14,7 +14,7 @@
 #define PIN_ADC_NTC       4     /* ADC1_CH4  <- 10k / NTC 10k B3950                    */
 #define PIN_ADC_ISENSE    6     /* ADC1_CH6  <- ISENSE_AMP (0.753 V = 1.0 A)           */
 #define PIN_BUTTON        9     /* active low, 10k pull-up, also BOOT strapping pin    */
-#define PIN_STATUS_LED    10    /* active low                                          */
+#define PIN_STATUS_LED    7     /* active low (IO10 is not bonded out on ESP32-C6-MINI-1) */
 #define PIN_DIP1          18    /* active low (switch to GND), internal pull-up        */
 #define PIN_DIP2          19
 #define PIN_DIP3          20

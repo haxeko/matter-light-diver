@@ -1,85 +1,84 @@
 Ref,Qty,Gia tri / Ma linh kien,Package,Mo ta,Vi du nha san xuat,Thay the (LCSC/JLCPCB),Ghi chu
-J1,1,Cau dau 2 chan 5.08 mm 300 V 10 A,THT,Dau vao AC L/N,Dinkle 2EDGR-5.08-2P,Ningbo Kangnex,Co the thay bang day han truc tiep + keo
+J1,1,2 pad han day 5.08 mm (lo 1.5 mm),THT pad,Dau vao AC L/N,Dinkle 2EDGR-5.08-2P,Ningbo Kangnex,Thay cau dau de tiet kiem cho; co the dung cau dau 5.08 neu keo dai board
 F1,1,T2A 250 V,2410 SMD hoac 5x20,Cau chi cham,Littelfuse 0463002.ER,Hollyland 6125 T2A,Bat buoc
 RV1,1,MOV 10D471K (S10K275),Disc 10 mm,Bao ve xung set,TDK S10K275,Songxin 10D471K,Dat sau cau chi
 RT1,1,NTC 5D-9,Disc 9 mm,Han dong khoi dong,TKS 5D-9,Sinochip 5D-9,Tuy chon; bo neu dung inrush thap
 L1,1,CM choke UU9.8 2x10 mH 0.5 A,THT UU9.8,Loc nhieu che do chung,Coilcraft CMT2-5-R / Wurth 744821110,Sunlord UU9.8,
 CX1,1,100 nF X2 275 VAC,THT 13x5 mm,Tu X2 loc nhieu,TDK B32921C3104,Jamicon/Songtian X2 0.1uF,Co 2x470k xa neu can
-BR1,1,MB10S 1000 V 0.8 A,SOIC-4,Cau chinh luu,Diodes MB10S,MDD MB10S,Hoac 4x 1N4007 (SMA M7)
-C1,1,47 uF 400 V 105 C,Radial 10x20,Tu bulk,Rubycon 400BXW47MEFC10X20,Aishi/Lelon 400 V 47 uF,Nam ngang de giam chieu cao
+D11-D14,4,M7 (1N4007 SMA) x4,SMA,Cau chinh luu 4 diode roi (pinout ro rang),MDD M7,S1M,Dat mat duoi
+"C1,C27",2,22 uF 400 V 105 C,Radial 10x13,Tu bulk,Rubycon 400BXW47MEFC10X20,Aishi/Lelon 400 V 47 uF,Dung 2 tu nho thay 1 tu 47 uF de ha chieu cao
 T1,1,PQ20/20 Np42 Ns24 Naux14 Lp 490 uH,THT PQ20/20 (5+5 chan),Bien ap flyback cach ly tang cuong,Dat quan theo spec hardware/calc,Coilcraft/ custom,Day TIW cho thu cap; khe ho ~0.28 mm
 Q1,1,N-MOSFET 650 V 4-6 A Rds<=1.5 ohm,DPAK hoac TO-220F,Khoa chinh flyback,ST STD6N65K3 / STF6N65K3,WSF6N65 / SVF4N65,Ta nhiet qua dong PCB 2 cm2
 D1,1,ES1J 600 V 1 A,SMA,Diode clamp RCD,Diodes ES1J,MDD ES1J,
-R1,2,22 kohm 2 W (song song = 11 k),2512,Dien tro clamp,Yageo RC2512,Uniroyal 2512,Hoac TVS P6KE150A thay R1/C2
-C2,1,12 nF 400 V,1206 X7R / 1210,Tu clamp,TDK C3216X7T2W123,Samsung 1206 630V,
-R2,2,0R82 1 % 0.5 W (song song = 0R41),1206,Dien tro sense so cap,Vishay WSL,Uniroyal 1206,Vcs 0.75 V @ 1.8 A
-R3,1,10 ohm,0603,Dien tro cong Q1,,,
-R4,1,1 kohm,0603,Loc CS,,,
-C7,1,220 pF 50 V C0G,0603,Loc spike CS,,,
+TVS1,1,P6SMB150A / SMBJ150A,SMB,Clamp dien ap phan xa (thay RCD),Littelfuse SMBJ150A,MDD SMBJ150A,Noi tiep D1; ton hao thap hon RCD
+"R2,R35",2,0R82 1 % 0.5 W (song song = 0R41),1206,Dien tro sense so cap,Vishay WSL,Uniroyal 1206,Vcs 0.75 V @ 1.8 A
+R3,1,10 ohm,0402,Dien tro cong Q1,,,
+R4,1,1 kohm,0402,Loc CS,,,
+C7,1,220 pF 50 V C0G,0402,Loc spike CS,,,
 U1,1,UCC28740DR,SOIC-7,Bo dieu khien flyback CC/CV co HV startup,TI UCC28740,NCP1250B / OB2273 (doi mach),
-C8,1,100 nF 50 V,0603,Decoupling VDD U1,,,
-C6,1,1 nF 50 V,0603,Loc FB,,,
-R5,1,150 kohm 1 %,0603,Chia ap VS (tren),,,
-R6,1,20 kohm 1 %,0603,Chia ap VS (duoi),,,
+C8,1,100 nF 50 V,0402,Decoupling VDD U1,,,
+C6,1,1 nF 50 V,0402,Loc FB,,,
+R5,1,150 kohm 1 %,0402,Chia ap VS (tren),,,
+R6,1,20 kohm 1 %,0402,Chia ap VS (duoi),,,
 R8,1,1 kohm 1206,1206,Gioi han dong chan HV,,,
 D3,1,US1J 600 V 1 A ultrafast,SMA,Chinh luu cuon phu,Diodes US1J,MDD US1J,
-C3,1,10 uF 50 V,Radial 5x11 hoac 1206,Tu VDD,,,
-U2,1,PC817C / EL817(S1) CTR 200-400 %,SOP-4 long creepage (10.16 mm) hoac DIP-4,Opto phan hoi cach ly 5 kV,Sharp PC817X / Everlight EL817S1,Orient OR-817S / LTV-817S,Creepage >= 8 mm
+C3,1,10 uF 50 V X7R,1206,Tu VDD,,,Thay tu dien phan 5x11
+U2,1,PC817C / EL817(S1) CTR 200-400 %,SO-4 wide body 7.6 mm (lead span 10.3 mm),Opto phan hoi cach ly 5 kV,Sharp PC817X / Everlight EL817S1,Orient OR-817S / LTV-817S,"Dat mat duoi, ngay duoi bien ap, bac qua hang rao"
 CY1,1,2.2 nF 250 VAC Y1,Disc THT pitch 10 mm,Tu Y bac qua hang rao,TDK CD12-E2GA222MYGS / Vishay VY1222M,Songtian Y1 222M,Hoac 2x Y2 noi tiep
 D2,1,ES3J 600 V 3 A ultrafast,SMC,Chinh luu thu cap,Diodes ES3J,MDD ES3J,Ton hao ~1.1 W; dong 2 cm2
 C4,1,100 uF 63 V low-ESR 105 C,Radial 8x12,Tu ra,Rubycon 63ZLH100MEFC8X11.5,Lelon RXW,Hoac 2x 47 uF
 C5,1,100 nF 100 V X7R,0805,Tu ra HF,,,
 U3,1,TLV9002IDR / GS8552,SOIC-8 hoac MSOP-8,Op-amp doi RRIO offset thap,TI TLV9002,Gainsil GS8552,LMV358 duoc nhung offset lon hon
-R9,1,1 kohm,0603,Bao ve dau vao U3A,,,
-R10,1,10 kohm 1 %,0603,Gain U3A,,,
-R11,1,40.2 kohm 1 %,0603,Gain U3A (x5),,,
-R12,1,33 kohm 1 %,0603,Chia / loc PWM_DIM,,,
-R13,1,9.76 kohm 1 %,0603,Chia PWM_DIM (0.228),,,
-R14,1,4.7 kohm,0603,Loc RC tang 2,,,
-"C10,C11",2,470 nF 16 V X7R,0603,Loc PWM->DAC,,,
-R15,1,10 kohm,0603,Vao bo loi,,,
-R16,1,10 kohm,0603,Bu type-II,,,
-C12,1,100 nF,0603,Bu type-II,,,
+R9,1,1 kohm,0402,Bao ve dau vao U3A,,,
+R10,1,10 kohm 1 %,0402,Gain U3A,,,
+R11,1,40.2 kohm 1 %,0402,Gain U3A (x5),,,
+R12,1,33 kohm 1 %,0402,Chia / loc PWM_DIM,,,
+R13,1,9.76 kohm 1 %,0402,Chia PWM_DIM (0.228),,,
+R14,1,4.7 kohm,0402,Loc RC tang 2,,,
+"C10,C11",2,470 nF 16 V X7R,0402,Loc PWM->DAC,,,
+R15,1,10 kohm,0402,Vao bo loi,,,
+R16,1,10 kohm,0402,Bu type-II,,,
+C12,1,100 nF,0402,Bu type-II,,,
 D4,1,1N4148W,SOD-123,Wired-OR CC,,,
-R17,1,1 kohm,0603,Dong LED opto (~3 mA),,,
+R17,1,1 kohm,0402,Dong LED opto (~3 mA),,,
 U4,1,TL431 (TL431AIDBZ),SOT-23,Kep CV 45 V,TI TL431,Diodes AZ431 / CJ431,
-R20,2,150 k + 20 k 1 % (= 170 k),0603,Chia ap TL431 (tren),,,
-R21,1,10 kohm 1 %,0603,Chia ap TL431 (duoi),,,
-C13,1,10 nF,0603,Bu TL431,,,
-R19,1,10 kohm,0603,Loc ADC_ISENSE,,,
-C14,1,1 nF,0603,Loc ADC_ISENSE,,,
-R22,1,150 kohm 1 %,0603,Chia ADC_VOUT,,,
-R23,1,10 kohm 1 %,0603,Chia ADC_VOUT,,,
-C15,1,100 nF,0603,Loc ADC_VOUT,,,
-"U5,U6",2,74AHCT1G125GW,SOT-353,Dich muc 3.3->5 V lai cong,Nexperia 74AHCT1G125,TI SN74AHCT1G125,
-"R24,R26",2,47 ohm,0603,Dien tro cong Q2/Q3,,,
-"R25,R27",2,100 kohm,0603,Keo xuong cong,,,
+R20,1,169 kohm 1 %,0402,Chia ap TL431 (tren) - mot dien tro E96,,,Thay 150k+20k
+R21,1,10 kohm 1 %,0402,Chia ap TL431 (duoi),,,
+C13,1,10 nF,0402,Bu TL431,,,
+R19,1,10 kohm,0402,Loc ADC_ISENSE,,,
+C14,1,1 nF,0402,Loc ADC_ISENSE,,,
+R22,1,150 kohm 1 %,0402,Chia ADC_VOUT,,,
+R23,1,10 kohm 1 %,0402,Chia ADC_VOUT,,,
+C15,1,100 nF,0402,Loc ADC_VOUT,,,
+"U5,U6",2,74AHCT1G125GW,SOT-353,Dich muc 3.3->5 V lai cong,Nexperia 74AHCT1G125,TI SN74AHCT1G125,Dung chung C25 100 nF
+"R24,R26",2,47 ohm,0402,Dien tro cong Q2/Q3,,,
+"R25,R27",2,100 kohm,0402,Keo xuong cong,,,
 "Q2,Q3",2,IRLML0060TRPBF 60 V 2.7 A,SOT-23,Khoa kenh CW/WW,Infineon IRLML0060,AOS AO3160 / VBsemi,Vds >= 60 V; Rds <= 0.25 ohm @4.5 V
-R7,2,0R30 1 % 0.5 W (song song = 0R15),1206,Shunt dong LED (Kelvin),Vishay WSL1206,Uniroyal 1206 0R3,
-J2,1,Cau dau 3 chan 3.5 mm hoac JST-XH 3P,THT,Dau ra V+ CW- WW-,,,
+"R7,R36",2,0R30 1 % 0.5 W (song song = 0R15),1206,Shunt dong LED (Kelvin),Vishay WSL1206,Uniroyal 1206 0R3,
+J2,1,3 pad han day 3.81 mm (lo 1.2 mm),THT pad,Dau ra V+ CW- WW-,,,
 U7,1,LMR16006YDDCR (4-60 V 0.6 A 700 kHz),SOT-23-6,Buck 5 V,TI LMR16006Y,MP9486A / XL7005A (doi FB),
-C16,1,4.7 uF 100 V X7R + 100 nF,1210 + 0603,Tu vao buck,,,
-C17,1,100 nF 25 V,0603,Bootstrap,,,
+C16,1,4.7 uF 100 V X7R,1210,Tu vao buck,,,100 nF phu bo (C16B) de tiet kiem cho
+C17,1,100 nF 25 V,0402,Bootstrap,,,
 D6,1,SS16 / SS110 Schottky 60-100 V 1 A,SMA,Diode xa buck,,,
 L2,1,22 uH 1 A Isat>=1.2 A,CD54 / 5x5 mm,Cuon buck,Sunlord SWPA5040S220MT,,
-C18,2,22 uF 10 V X7R,0805,Tu ra 5 V,,,
-R28,1,100 kohm,0603,EN buck,,,
-R29,1,56 kohm 1 %,0603,Chia FB buck (tren),,,
-R30,1,10 kohm 1 %,0603,Chia FB buck (duoi),,,
+"C18,C26",2,22 uF 10 V X7R,0805,Tu ra 5 V,,,
+R28,1,100 kohm,0402,EN buck,,,
+R29,1,56 kohm 1 %,0402,Chia FB buck (tren),,,
+R30,1,10 kohm 1 %,0402,Chia FB buck (duoi),,,
 U8,1,ME6211C33M5G / RT9013-33GB,SOT-23-5,LDO 3.3 V 500 mA,Microne ME6211,Richtek RT9013,
-C19,1,1 uF 10 V,0603,Vao LDO,,,
-C20,2,10 uF + 100 nF,0805 + 0603,Ra LDO (sat module),,,
+C20,1,10 uF 10 V,0805,Ra LDO (sat module),,,
+C19,1,1 uF 10 V,0402,Vao LDO,,,
 U9,1,ESP32-C6-MINI-1-N4,Module 13.2x16.6 mm,MCU Matter/Thread/BLE,Espressif,ESP32-C6-WROOM-1-N8 (lon hon),Anten PCB; keep-out
-C21,1,1 uF,0603,RC reset EN,,,
-R32,1,10 kohm,0603,Pull-up EN,,,
+C21,1,1 uF,0402,RC reset EN,,,
+R32,1,10 kohm,0402,Pull-up EN,,,
 "C22,C23",2,10 uF + 100 nF,0805 + 0603,Decoupling 3V3 module,,,
 SW1-3,1,DIP switch 3 vi tri 2.54 mm (SMD),SMD DIP-6,Chon cong suat den,CTS 219-3MST,Dongguan DSHP03TSGET,
-SW4,1,Nut nhan 3x6 mm (side) hoac 6x6 mm,SMD,Identify / factory reset / BOOT,,,
-R34,1,10 kohm,0603,Pull-up nut,,,
-C24,1,100 nF,0603,Chong doi nut,,,
-D10,1,LED xanh 0805,0805,LED trang thai,,,
-R33,1,1 kohm,0603,Han dong LED,,,
-RT2,1,NTC 10 kohm B3950 1 %,0603,Do nhiet board,Murata NCP18XH103F,,Dan gan Q2/Q3 va D2
-R31,1,10 kohm 1 %,0603,Chia ap NTC,,,
-J3,1,4 pad USB (D+ D- GND 5V),Pad 2.54 mm,Nap USB-JTAG,,,Khong gan 5 V vao board khi dang cam dien luoi
+SW4,1,Nut nhan SMD 5.2x5.2 mm (SKQG),SMD,Identify / factory reset / BOOT,,,
+R34,1,10 kohm,0402,Pull-up nut,,,
+C24,1,100 nF,0402,Chong doi nut,,,
+D10,1,LED xanh 0805,0805,LED trang thai,,,Noi GPIO7 (IO10 khong co tren module MINI-1); dat canh DIP
+R33,1,1 kohm,0402,Han dong LED,,,
+RT2,1,NTC 10 kohm B3950 1 %,0402,Do nhiet board,Murata NCP18XH103F,,Dan gan Q2/Q3 va D2
+R31,1,10 kohm 1 %,0402,Chia ap NTC,,,
+J3,1,4 pad SMD 2.54 mm (5V D- D+ GND),Pad 2.54 mm,Nap USB-JTAG,,,Khong gan 5 V vao board khi dang cam dien luoi
 J4,1,Header 1x3 (TX RX GND),Pad 2.54 mm,UART0 debug,,,

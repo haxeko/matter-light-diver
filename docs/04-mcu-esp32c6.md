@@ -21,7 +21,7 @@ Nguồn: 3.3 V ±5 %, đỉnh ≈ 350 mA khi phát 802.15.4/BLE 20 dBm; trung b�
 | 4 | ADC_NTC | ADC1_CH4 | nhiệt độ board | strapping SDIO – không ảnh hưởng |
 | 6 | ADC_ISENSE | ADC1_CH6 | dòng LED (0.753 V = 1 A) | |
 | 9 | BUTTON | in, pull‑up | nhấn ngắn = toggle/identify; giữ 5 s = factory reset | cũng là BOOT: giữ khi cấp nguồn → chế độ nạp |
-| 10 | STATUS_LED | out | mức thấp = sáng | nháy theo trạng thái commissioning |
+| 7 | STATUS_LED | out | mức thấp = sáng (IO10 không có trên module MINI‑1) | nháy theo trạng thái commissioning |
 | 12 / 13 | USB D– / D+ | – | USB‑Serial‑JTAG nạp & debug (pad J3) | **không** nối 5 V USB khi board đang cắm điện lưới |
 | 16 / 17 | TXD0 / RXD0 | – | UART0 log (header J4) | |
 | 18 / 19 / 20 | DIP1 / DIP2 / DIP3 | in, pull‑up | 3 nút gạt chọn công suất (ON = GND) | đọc lúc boot + poll 100 ms |

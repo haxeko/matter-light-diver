@@ -11,7 +11,7 @@ Thiết kế hoàn chỉnh (tài liệu, sơ đồ nguyên lý, tính toán, flo
 | Điều khiển | Matter 1.x – Color Temperature Light, Thread FTD, commissioning BLE |
 | Điều sáng | 1–100 % analog CC (12 bit), không nhấp nháy; CCT 2700–6500 K |
 | Cách ly | tăng cường 3.75 kV, creepage ≥ 8 mm, opto 5 kV, tụ Y1 |
-| PCB | 30 × 90 mm (40 W) hoặc 30 × 60–65 mm (≤ 20 W), 2 lớp |
+| PCB | KiCad 30 × 95 mm (40 W), 2 lớp, THT mặt trên / SMD mặt dưới; biến thể 30 × 60–65 mm (≤ 20 W) |
 
 ## Cấu trúc kho
 
@@ -27,6 +27,7 @@ docs/                      tài liệu thiết kế (tiếng Việt)
   bom/BOM.csv                    danh mục linh kiện (có mã thay thế LCSC)
   images/block_diagram.svg       sơ đồ khối (sinh bởi gen_block_diagram.py)
 hardware/
+  kicad/                         DỰ ÁN KICAD (schematic + PCB 30x95 mm, Gerber, DSN) sinh từ design_db.py
   calc/flyback_calc.py           tính toán flyback (in bảng Markdown / JSON)
   calc/secondary_calc.py         bảng DIP, vòng CC, kẹp CV, MOSFET, nguồn phụ
   schematics/0X_*.svg            sơ đồ nguyên lý 7 khối (sinh bởi gen_0X_*.py, schemdraw)
@@ -58,6 +59,12 @@ python3 hardware/calc/flyback_calc.py
 python3 hardware/calc/secondary_calc.py
 for f in hardware/schematics/gen_*.py docs/images/gen_block_diagram.py hardware/pcb/gen_floorplan.py; do python3 "$f"; done
 ```
+
+## PCB KiCad
+
+`hardware/kicad/` chứa project KiCad 7 (mở được bằng 7/8/9): `matter_cct_driver.kicad_pcb` (đặt linh kiện xong, đi dây tự động ≈ 70 % kết nối (160/230), phần đã đi sạch DRC; phần còn lại hoàn thiện tay hoặc Freerouting), schematic kết nối, thư viện footprint riêng (ESP32‑C6‑MINI‑1, PQ20/20, UU9.8…), Gerber/drill, PDF/SVG hai mặt và file DSN cho Freerouting. Toàn bộ được sinh từ `hardware/kicad/design_db.py` bằng API `pcbnew`; xem `hardware/kicad/README.md`.
+
+![PCB mặt trên](hardware/kicad/output/pcb_top.svg)
 
 ## Firmware
 

@@ -1,8 +1,13 @@
-# 05 – PCB: floorplan 30 × 90 mm (40 W) và 30 × 60 mm (20 W)
+# 05 – PCB: thiết kế KiCad 30 × 95 mm (40 W) và biến thể 30 × 60 mm (20 W)
 
 ![Floorplan](../hardware/pcb/floorplan_30x90.svg)
 
-Script sinh hình: `hardware/pcb/gen_floorplan.py` (tọa độ mm).
+Floorplan ý tưởng ở trên (30 × 90 mm, `hardware/pcb/gen_floorplan.py`). **Thiết kế PCB thực tế bằng KiCad** nằm trong `hardware/kicad/` (xem `hardware/kicad/README.md`): board 30 × 95 mm, 2 lớp, linh kiện THT và module ở mặt trên, SMD nhỏ (0402/SOT) ở mặt dưới. Khác biệt so với floorplan ý tưởng, rút ra khi bố trí thật:
+
+* Hàng rào cách ly là đường thẳng x = 45 mm (giữa biến áp); opto U2 (SO‑4 thân rộng) đặt **mặt dưới ngay dưới biến áp**, tụ Y1 ở dải dưới có rãnh phay 1 mm → không còn dải đồng sơ cấp zig‑zag và vùng keep‑out lớn.
+* Đầu vào AC và đầu ra LED dùng **pad hàn dây** (như driver thương mại) thay cầu đấu; cầu chỉnh lưu dùng 4 diode M7 (SMA) ở mặt dưới; tụ bulk 2 × 22 µF/400 V (10 × 13 mm) thay 1 tụ 47 µF nằm; clamp dùng TVS SMB thay RCD; C3 là tụ gốm 1206.
+* LED trạng thái dùng GPIO7 (module ESP32‑C6‑MINI‑1 không đưa IO10 ra chân) và đặt cạnh nút gạt DIP; test‑point EN bỏ (đo tại C21).
+* Chiều dài 95 mm để có kênh via ≥ 1,6 mm giữa các hàng linh kiện mặt dưới; có thể rút về 90 mm nếu đi dây tay.
 
 ## 1. Stack‑up và quy tắc
 
